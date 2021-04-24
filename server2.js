@@ -4,6 +4,6 @@ let server = http.createServer((req,res)=>{
     res.write("<h1>welcome to server2</h1>");
     res.end();
 });
-server.listen(8080,()=>{
+server.listen(8082,()=>{
     console.log("server2 running at port 8082")
 });
